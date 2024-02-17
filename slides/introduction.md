@@ -77,3 +77,13 @@ Was that the best use of 6 years of arguments?
 * Papers have limited space
 * Human error is inevitable
 * Computers are pretty good at doing the same thing every time
+
+-
+
+![Screen shot of a lot of code in very small font, filling the screen](./images/lots_of_code.png) <!-- .element: width="1800px" -->
+
+-
+
+Process $\rightarrow$ ⬛ $\rightarrow$ 🪄 $\rightarrow$ ✨Results✨
+
+<!--![Process to black box to magic wand to very sparkly results](./images/process-sparkles.png) <!-- .element width="550px" -->
