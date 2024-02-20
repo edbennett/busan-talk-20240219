@@ -37,16 +37,16 @@
 <div style="width: 30%; float: left; vertical-align: middle;">
 <pre>
 .
-├── code
+├── code/
 │   ├── CITATION.cff
 │   ├── LICENSE
 │   ├── README.md
-│   └── src
-├── data
-│   ├── input_data
-│   ├── metadata
-│   └── raw_data
-└── paper
+│   └── src/
+├── data/
+│   ├── input_data/
+│   ├── metadata/
+│   └── raw_data/
+└── paper/
     ├── paper.tex
     └── references.bib
 </pre>
@@ -63,23 +63,23 @@ $\rightarrow$
 
 <pre style="width: 30%; float: left; vertical-align: middle;" class="fragment">
 .
-├── code
+├── code/
 │   ├── CITATION.cff
 │   ├── LICENSE
 │   ├── README.md
 │   ├── environment.yml
-│   └── src
-├── data
-│   ├── input_data
-│   ├── metadata
+│   └── src/
+├── data/
+│   ├── input_data/
+│   ├── metadata/
+│   ├── raw_data/
 │   ├── metafits.csv
-│   ├── raw_data
 │   └── spectrum.csv
-└── paper
+└── paper/
+    ├── plots/
+    ├── tables/
     ├── paper.tex
-    ├── plots
-    ├── references.bib
-    └── tables
+    └── references.bib
 </pre>
 
 -
@@ -105,7 +105,7 @@ If the captions are simple:
 
 </div>
 
-<div style="float: left; width: 40%; margin: 5%;" class="fragment"">
+<div style="float: left; width: 40%; margin-left: 5%; margin-right: 5%; margin-bottom: 50px;" class="fragment"">
 
 If the captions contain data:
 <pre>
@@ -132,6 +132,8 @@ Then `plots/spectrum.tex`:
 </div>
 </div>
 
+<div class="fragment">Re-running the workflow wipes out the old plots and tables.<br>Avoids inconsistent or out-of-date data remaining in drafts.</div>
+
 -
 
 [![Screenshot of the header of the paper "Lattice studies of the Sp(4) gauge theory with two fundamental and three antisymmetric Dirac fermions"](./papers/2022-multirep.png)](https://doi.org/10.1103/PhysRevD.106.014501)
@@ -156,9 +158,9 @@ Then `plots/spectrum.tex`:
 
 -
 
-[![Screenshot of the header of the paper "Sp(2$N$) Yang-Mills theories on the lattice: Scale setting and topology"](./papers/2022-topology-prd.png)](https://doi.org/10.1103/PhysRevD.106.094503)
+[![Screenshot of the header of the paper "Sp(2$N$) Yang-Mills theories on the lattice: Scale setting and topology"](./papers/2022-topology-prd.png) <!-- .element width="900px" -->](https://doi.org/10.1103/PhysRevD.106.094503)
 
-[![Screenshot of the header of the paper "Color dependence of the topological susceptibility in Yang-Mills theories"](./papers/2022-susceptibility-plb.png)](https://doi.org/10.1016/j.physletb.2022.137504)
+[![Screenshot of the header of the paper "Color dependence of the topological susceptibility in Yang-Mills theories"](./papers/2022-susceptibility-plb.png) <!-- .element width="900px" -->](https://doi.org/10.1016/j.physletb.2022.137504)
 
 ([Data release](https://zenodo.org/records/6678411) • [Analysis release](https://zenodo.org/records/7260975))
 
@@ -175,8 +177,6 @@ Then `plots/spectrum.tex`:
 
 [![Code sample of a Python file](./images/code-topology.png) <!-- .element width="600px" -->](https://github.com/edbennett/sp2n-topology-202205/blob/main/Makefile)
 [![Code sample of a Makefile](./images/makefile-multirep.png) <!-- .element width="600px" -->](https://github.com/edbennett/sp2n-multirep-202203/blob/main/Makefile)
-
--
 
 -
 

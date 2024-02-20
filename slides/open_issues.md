@@ -26,4 +26,10 @@
 
 ## Conclusions
 
-TODO
+- We aim to be fully open in our analysis practices
+- We have delivered on this for our work in 2022&ndash;23
+- We plan to streamline our approach
+  - More consistent development practices
+  - More rapid releases
+  - More reusable components
+- We would like there to be more community standards to follow

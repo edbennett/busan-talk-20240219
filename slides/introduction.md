@@ -50,7 +50,7 @@ _Orthogonal to data being open_
 * Public funding $\Rightarrow$ Public results <!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 * Our funders say so <!-- .element: class="fragment fade-in" data-fragment-index="3" -->
 
-_"Data resulting from publicly funded research should be made publicly available... unless there are specific reasons (e.g. legislation, ethical, privacy and security) why this should not happen"_ &mdash;[STFC Scientific Data Policy](https://www.dcc.ac.uk/guidance/policy/funders-data-policies/stfc)
+_"Data resulting from publicly funded research should be made publicly available... unless there are specific reasons (e.g. legislation, ethical, privacy and security) why this should not happen"_ <br>&mdash;[STFC Scientific Data Policy](https://www.dcc.ac.uk/guidance/policy/funders-data-policies/stfc)
 <!-- .element: class="fragment fade-in" data-fragment-index="3" -->
 
 -
