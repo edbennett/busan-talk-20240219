@@ -199,7 +199,7 @@ Then `plots/spectrum.tex`:
 <!-- Took some amount of time -->
 - Generation and job submission scripts are included
 - One command to install requirements:<br>`conda env create -f environment.yml`
-- Multiple commands needed to run full analysis
+- One command needed to run full analysis:<br>`for FILE in analysis/*.sh; do bash ${FILE}; done*`
 
 -
 
