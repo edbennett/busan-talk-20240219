@@ -41,6 +41,7 @@
 │   ├── CITATION.cff
 │   ├── LICENSE
 │   ├── README.md
+│   ├── environment.yml
 │   └── src/
 ├── data/
 │   ├── input_data/
